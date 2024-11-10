@@ -1,24 +1,24 @@
 # Network-Visualization
-# Analyzing Netwokr Traffic Using Wireshark and Google Maps
+# Analyzing Network Traffic Using Wireshark and Google Maps
 ![image](https://github.com/clevelandjosiah/Azure-Honeynet/assets/171377691/ccbb0cae-4da6-4481-aa67-93363a41dd67)
 
 
 ## Introduction
 
-In this project, I created a mini honeynet in Azure and collected log data from various sources into a Log Analytics workspace. This workspace was then utilized by Microsoft Sentinel to develop attack maps, trigger alerts, and generate incidents. I measured specific security metrics in the unsecured environment for 24 hours, implemented security controls to enhance the environment's security, and then measured the metrics again for another 24 hours. The metrics I collected are:
+In this project, I decided to capture the visuals that covers the implementation steps needed to take a file of network traffic and convert it into a visual presentation using Google Maps, Wireshark, and Python. 
 
-- SecurityEvent (Windows Event Logs)
-- Syslog (Linux Event Logs)
-- SecurityAlert (Log Analytics Alerts Triggered)
-- SecurityIncident (Incidents created by Sentinel)
-- AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
-## Architecture Before Hardening / Security Controls
+
+## Network Traffic Capturing
 ![image](https://github.com/clevelandjosiah/Azure-Honeynet/assets/171377691/db74ab11-6f48-411c-9a6b-50da5ff22be8)
 
 
-## Architecture After Hardening / Security Controls
+## Implementing Python
 ![image](https://github.com/clevelandjosiah/Azure-Honeynet/assets/171377691/173f8d5a-7852-4a3a-b261-8deea35f808c)
+
+## Google Map Data
+![image](https://github.com/clevelandjosiah/Azure-Honeynet/assets/171377691/173f8d5a-7852-4a3a-b261-8deea35f808c)
+
 
 
 The architecture of the mini honeynet in Azure consists of the following components:
